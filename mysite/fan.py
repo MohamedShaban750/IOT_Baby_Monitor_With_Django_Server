@@ -1,21 +1,6 @@
-# Threading Imports
-import threading
-from time import sleep
-# _____________________________________
-# Djanogo Imports
-#from django.shortcuts import render
-#from django.http import HttpResponse
-# _____________________________________
-#  Chip
 import RPi.GPIO as GPIO
-# _____________________________________
-# Firebase Imports
 import pyrebase
-import firebase_admin
-from firebase_admin import credentials
-# from firebase_admin import db
-# _____________________________________
-# Firebase Config
+
 config = {
     "apiKey": "AIzaSyDhinRkAu5k-3aL83EIe_thcTwhmu1fVvU",
     "authDomain": "baby-156b1.firebaseapp.com",

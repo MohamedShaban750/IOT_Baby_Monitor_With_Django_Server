@@ -38,7 +38,7 @@ LCD_LINE_2 = 0xC0 # LCD RAM address for the 2nd line
 E_PULSE = 0.0005
 E_DELAY = 0.0005
  
-def lcdTest():
+def lcd():
     # Main program block
     GPIO.setwarnings(False)
     GPIO.setmode(GPIO.BCM)       # Use BCM GPIO numbers
